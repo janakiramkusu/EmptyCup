@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  width: 100vw; 
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.title {
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #716966;
+}
+
+.menu-icon {
+  font-size: 20px;
+  color: #000000;
+}
+

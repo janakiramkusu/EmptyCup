@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4; 
+  font-family: 'Chivo', sans-serif;
+}
+
+html,
+body {
+  overflow: hidden;   
+  height: 100%;       
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;     
+}

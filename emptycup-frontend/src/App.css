@@ -1,0 +1,10 @@
+.DesignerList {
+  height: calc(100vh - 130px);
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.DesignerList::-webkit-scrollbar {
+  display: none;
+}
