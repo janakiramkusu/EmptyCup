@@ -24,7 +24,7 @@ This project displays a list of interior designers active on **EmptyCup’s plat
 
 ---
 
-## 🌐 Live Deployment
+## Live Deployment
 
 The project is deployed with the frontend on **Vercel** and the backend on **Render**.
 
