@@ -8,7 +8,7 @@ const Navbar = ({ isShortlistedFilter, toggleShortlistedFilter }) => {
           <img src="src/assets/contact.png" alt="Contacts" />
         </div>
         <div className="nav-item">
-          <img src="emptycup-frontend/public/Gallery.png" alt="Gallery" />
+          <img src="./public/Gallery.png" alt="Gallery" />
         </div>
         <div className="nav-item disabled">
           <img src="src/assets/Maps.png" alt="Map" />
