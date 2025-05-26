@@ -8,7 +8,7 @@ function App() {
   const [designers, setDesigners] = useState([]);
   const [shortlisted, setShortlisted] = useState([]);
   const [isShortlistedFilter, setIsShortlistedFilter] = useState(false);
-  const URL = import.meta.env.VITE_BACKEND_URL;
+  const URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 
   useEffect(() => {
   const fetchDesigners = async () => {

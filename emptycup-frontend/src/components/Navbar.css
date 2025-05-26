@@ -22,10 +22,9 @@
 }
 
 .nav-item.active img {
-  opacity: 1;
+  opacity: 4;
 }
 
 .nav-item.disabled img {
   opacity: 0.3;
-  pointer-events: none;
 }

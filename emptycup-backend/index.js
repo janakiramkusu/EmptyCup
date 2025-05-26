@@ -11,11 +11,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use('/api/designers', router);
-
+const MongoDB_URI = process.env.MONGO_URI || 'mongodb://mongo:27017/emptycup';
 mongoose
-  .connect(process.env.MONGO_URL)
-  .then(() => console.log('✅ MongoDB Connected'))
-  .catch((err) =>   console.error('❌ MongoDB Connection Error:', err) );
+  .connect(MongoDB_URI)
+  .then(() => console.log('MongoDB Connected'))
+  .catch((err) =>   console.error('MongoDB Connection Error:', err) );
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
