@@ -40,15 +40,15 @@ This project is containerized using Docker. You can run both frontend and backen
    
 2. Backend (Docker)
 
-To build and run the backend server using Docker, run:
+   To build and run the backend server using Docker, run:
 
-```bash
-docker-compose up --build
+   ```bash
+   docker-compose up --build
 
-3. frontend
+3. Frontend
 
-To build and run the frontend server using Docker, run:
+   To build and run the frontend server using Docker, run:
 
-```bash
-npm install
-npm run dev
+   ```bash
+   npm install
+   npm run dev
