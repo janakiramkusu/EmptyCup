@@ -24,7 +24,7 @@ This project displays a list of interior designers active on **EmptyCup’s plat
 
 ---
 
-## 🛠 Local Development Setup (Offline Ready with Docker)
+## Local Development Setup (Offline Ready with Docker)
 
 This project is containerized using Docker. You can run both frontend and backend locally without needing an internet connection once the images are built.
 
