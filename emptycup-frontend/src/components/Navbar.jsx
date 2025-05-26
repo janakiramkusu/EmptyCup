@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./Navbar.css"; 
 import contactImg from "../assets/contact.png";
 import galleryImg from "../assets/Gallery.png";
 import mapsImg from "../assets/Maps.png";
