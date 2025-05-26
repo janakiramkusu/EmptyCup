@@ -2,6 +2,12 @@ import { FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
 import { MdArrowForward } from 'react-icons/md';
 import './DesignerCard.css';
 
+import arrowImg from '../assets/arrow.png';
+import eyeslashImg from '../assets/eyeslash.png';
+import shortlistedImg from '../assets/Shortlisted2.png';
+import shortlistImg from '../assets/Shortlisted1.png';
+import reportImg from '../assets/Report.png';
+
 const DesignerCard = ({ designer, isShortlisted, toggleShortlist }) => {
   const id = designer._id;
 
@@ -38,17 +44,13 @@ const DesignerCard = ({ designer, isShortlisted, toggleShortlist }) => {
       </div>
 
       <div className="card-right">
-        <div className="action"><img src="src/assets/arrow.png" alt="Hide" /> <span>Details</span></div>
-        <div className="action"><img src="src/assets/eyeslash.png" alt="Hide" /> <span>Hide</span></div>
+        <div className="action"><img src={arrowImg} alt="Details" /> <span>Details</span></div>
+        <div className="action"><img src={eyeslashImg} alt="Hide" /> <span>Hide</span></div>
         <div className="action" onClick={() => toggleShortlist(id)}>
-          {isShortlisted ? (
-            <img src="src/assets/Shortlisted2.png" alt="Shortlisted" />
-          ) : (
-            <img src="src/assets/Shortlisted1.png" alt="Shortlist" />
-          )}
+          <img src={isShortlisted ? shortlistedImg : shortlistImg} alt="Shortlist" />
           <span>Shortlist</span>
         </div>
-        <div className="action"><img src="src/assets/Report.png" alt="Report" /> <span>Report</span></div>
+        <div className="action"><img src={reportImg} alt="Report" /> <span>Report</span></div>
       </div>
     </div>
   );
