@@ -1,8 +1,8 @@
-#  EmptyCup
+# EmptyCup
 
 This project displays a list of interior designers active on **EmptyCup’s platform**. Homeowners interested in collaborating with a designer can browse this listings page to find professionals available for business.
 
-##  Features
+## Features
 
 - Lists all active interior designers
 - Allows users to shortlist favorite designers
@@ -12,7 +12,7 @@ This project displays a list of interior designers active on **EmptyCup’s plat
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Layer        | Technology           |
 |--------------|----------------------|
@@ -28,10 +28,10 @@ This project displays a list of interior designers active on **EmptyCup’s plat
 
 This project is containerized using Docker. You can run both frontend and backend locally without needing an internet connection once the images are built.
 
-### ✅ Prerequisites
+### Prerequisites
 - [Docker](https://docs.docker.com/get-docker/) installed
 
-### 🐳 Run Both Frontend & Backend with Docker
+### Run Both Frontend & Backend with Docker
 
 1. Clone the repository:
    ```bash
