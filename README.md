@@ -24,6 +24,15 @@ This project displays a list of interior designers active on **EmptyCup’s plat
 
 ---
 
+## 🌐 Live Deployment
+
+The project is deployed with the frontend on **Vercel** and the backend on **Render**.
+
+- [Live Site](https://empty-cup-eta.vercel.app/)
+
+This setup ensures a fast, scalable frontend experience via Vercel, while leveraging Render’s persistent backend capabilities for handling APIs and server-side logic.
+
+
 ## Local Development Setup (Offline Ready with Docker)
 
 This project is containerized using Docker. You can run both frontend and backend locally without needing an internet connection once the images are built.
